@@ -1,5 +1,5 @@
 .env
 *.zip
-neu_defects/
+neu-metal-surface-defects-data/
 __pycache__/
 .ipynb_checkpoints/
