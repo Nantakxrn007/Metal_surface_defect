@@ -1,0 +1,5 @@
+If the model isn't trained on augmentation, it's almost impossible to predict augmentation.
+If the pre-trained model is trained with FC, it's significantly better and faster than initially model like CNN.
+If the acc isn't good, we should initially tune the learning rate.
+If the dataloader val test is not random, it shouldn't be compared.
+The dataloader __len__ and __getitem__ are very important. Initially, we'll use __len__ to execute the idx and forloop following __getitem__.
